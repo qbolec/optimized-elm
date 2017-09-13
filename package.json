@@ -1,0 +1,43 @@
+{
+  "name": "elm",
+  "version": "0.16.0-opt",
+  "description": "The Elm Platform: Binaries for the Elm programming language optimized by Siili.",
+  "preferGlobal": true,
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elm-lang/elm-platform.git"
+  },
+  "homepage": "https://github.com/elm-lang/elm-platform/tree/master/installers/npm",
+  "bugs": "https://github.com/elm-lang/elm-platform/issues",
+  "author": {
+    "name": "Jakub Łopuszański",
+    "email": "jakub.lopuszanski@siili.com",
+    "url": "https://github.com/qbolec"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "files": [
+    "binaries"
+  ],
+  "keywords": [
+    "bin",
+    "binary",
+    "binaries",
+    "elm",
+    "elm-make",
+    "elm-package",
+    "elm-platform",
+    "elm-reactor",
+    "elm-repl",
+    "platform"
+  ],
+  "bin": {
+    "elm": "binaries/elm",
+    "elm-make": "binaries/elm-make",
+    "elm-package": "binaries/elm-package",
+    "elm-reactor": "binaries/elm-reactor",
+    "elm-repl": "binaries/elm-repl"
+  }
+}
